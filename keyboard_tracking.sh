@@ -13,7 +13,7 @@ get_device_from_json() {
 }
 
 show_warning_window() {
-    zenity --error --title="Keyboard Disconnected" --text="We see you $USER..\nYou know that unplugging a keyboard is forbidden, right?" --width=400 --height=100
+    zenity --error --title="Keyboard Disconnected" --text="We see you $USER..\nYou know that unplugging a keyboard is forbidden, right?" --width=400 --height=100 &
 }
 
 log_device_action() {
